@@ -73,10 +73,10 @@ let index = 0
   if (index === MaxWidthBlock) {
     // clearInterval(interval)
     if(counterArr === testimonials.length - 1) {
-      counterArr = 0
+      counterArr = 1
     }
     counterArr++
-    index = 1
+    index = 0
 
     text.innerHTML = testimonials[counterArr].text
     img.src = testimonials[counterArr].photo
