@@ -1,0 +1,66 @@
+@import 'vars';
+@import 'fonts';
+@import 'reset';
+@import 'libs';
+@import 'global';
+
+
+
+
+
+
+.testimonial {
+
+    &__inner {  
+        // padding: 60px;
+        background-color: rgb(99, 99, 255);
+        border-radius: 20px;
+        padding: 40px 0;
+        box-shadow: 0 0 10px rgb(0, 0, 0 / 30%);
+    }
+
+    &__content {
+        max-width: 600px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    &__delay {
+        height: 8px;
+        background-color: #fff;
+        max-width: 600px;
+        width: 0px;
+        margin-bottom: 20px;
+    }
+
+    &__text {
+        color: #fff;
+        margin-bottom: 20px;
+    }
+
+    &__info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__img {
+        border-radius: 100%;
+        width: 70px;
+        height: 70px;
+    }
+
+    &__person {
+        margin-left: 20px;
+    }
+
+    &__name {
+        display: block;
+        color: #fff;
+    }
+
+    &__prof {
+        color: #fff;
+    }
+}
+
